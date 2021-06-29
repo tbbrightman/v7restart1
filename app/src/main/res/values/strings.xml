@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">v7</string>
+    <string name="select_office">Tap down arrow to select Office:</string>
+    <string name="select_candidate">Tap down arrow to make choice:</string>
+    <string name="enter_choice_btn">Enter choices</string>
+    <string name="review_choices_btn">Review choices</string>
+    <string name="cast_vote_btn">Cast your vote</string>
+    <string name="term_string">^</string>
+    <string name="third_activity_is_working">Third activity is working .........</string>
+    <string name="second_activity_is_working">Second Activity is running!</string>
+
+    <string-array name="offices">
+        <item>President and Vice-President of the United States</item>
+        <item>Governor</item>
+        <item>United States Senator</item>
+        <item>Representative in Congress </item>
+        <item>Executive Councillor</item>
+        <item>State Senator</item>
+        <item>State Representative Rockingham District 25</item>
+        <item>State Representative Rockingham District 30</item>
+    </string-array>
+
+    <string-array name="candidates">
+        // A fixed format array of registered candidates
+        // String "entry name" followed by
+        // String "party name" followed by
+        // "^" to delimit races.
+        // Office 0
+        <item>Joseph R. Biden	Kamala D. Harris</item>
+        <item>DEM</item>
+        <item>Jo Jorgensen		Jeremy Cohen</item>
+        <item>IND</item>
+        <item>Donald J. Trump	Michael R. Pence</item>
+        <item>REP</item>
+        <item>^</item>
+        // Office 1
+        <item>Dan Feltes</item>
+        <item>DEM</item>
+        <item>Darryl W. Perry</item>
+        <item>IND</item>
+        <item>Chris Sununu</item>
+        <item>REP</item>
+        <item>^</item>
+        // Office 2
+        <item>Jeanne Shaheen</item>
+        <item>DEM</item>
+        <item>Justin O_Donnell</item>
+        <item>IND</item>
+        <item>Corky Messner</item>
+        <item>REP</item>
+        <item>^</item>
+        // Office 3
+        <item>Chris Pappas</item>
+        <item>DEM</item>
+        <item>Zachary S. Dumont</item>
+        <item>IND</item>
+        <item>Matt Mowers</item>
+        <item>REP</item>
+        <item>^</item>
+        // Office 4
+        <item>Mindi Messmer</item>
+        <item>DEM</item>
+        <item>Janet Stevens</item>
+        <item>REP</item>
+        <item>^</item>
+        // Office 5
+        <item>Rebecca Perkins Kwoka</item>
+        <item>DEM</item>
+        <item>Sue Polidura</item>
+        <item>REP</item>
+        <item>^</item>
+        // Office 6
+        <item>Laura Pantelakos</item>
+        <item>DEM</item>
+        <item>^</item>
+        // Office 7
+        <item>Jacqueline Cali-Pitts</item>
+        <item>DEM</item>
+        <item>Thomas Lukacz</item>
+        <item>REP</item>
+        <item>^</item>
+    </string-array>
+
+    <string-array name="office_parameters">
+        // A fixed format String vector for each office stating: number_of_candidates,
+        permitted_selections= 1
+        // Office 0
+        <item>4 1</item>
+        // Office 1
+        <item>4 1</item>
+        // Office 2
+        <item>4 1</item>
+        // Office 3
+        <item>4 1</item>
+        // Office 4
+        <item>3 1</item>
+        // Office 5
+        <item>3 1</item>
+        // Office 6
+        <item>2 1</item>
+        // Office 7
+        <item>3 1</item>
+    </string-array>
+
+    <string-array name="races">
+        // title String
+        // nbr of registered entries
+        // nbr of permitted choices
+        <item>President and Vice-President of the United States</item>
+        <item>3</item>
+        <item>1</item>
+        <item>Governor</item>
+        <item>3</item>
+        <item>1</item>
+        <item>United States Senator</item>
+        <item>3</item>
+        <item>1</item>
+        <item>Representative in Congress </item>
+        <item>3</item>
+        <item>1</item>
+        <item>Executive Councillor</item>
+        <item>2</item>
+        <item>1</item>
+        <item>State Senator</item>
+        <item>2</item>
+        <item>1</item>
+        <item>State Representative Rockingham District 25</item>
+        <item>1</item>
+        <item>1</item>
+        <item>State Representative Rockingham District 30</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="title_activity_enter">Enter Activity</string>
+    <string name="title_activity_review">Review Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">NEXT</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="cand5">cand5</string>
+    <string name="cand1">cand1</string>
+    <string name="cand4">cand4</string>
+    <string name="cand3">cand3</string>
+    <string name="cand2">cand2</string>
+    <string name="question">question</string>
+    <string name="office_name">office name</string>
+    <string name="prev">PREV</string>
+    <string name="cb1">cb1</string>
+    <string name="candidate">candidate</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_review2">Review2</string>
+    <string name="press_checkmark_to_enter">Press checkmark to enter.</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_activity_cast_vote">Cast_vote</string>
+    <string name="write_in">Write-in</string>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_marginStart="0dp"
+    android:layout_marginLeft="8dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/partyView"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center_vertical"
+        android:text="party"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/cB"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center_vertical"
+        android:onClick="onClick"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/entry_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="8dp"
+        android:baselineAligned="false"
+        android:gravity="center_vertical"
+        android:onClick="onClick"
+        android:text="entry_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+</LinearLayout>
